@@ -1,0 +1,78 @@
+.boxfull{
+    background-color: #F1CC04;
+}
+
+.boxfull2 {
+    background: linear-gradient(to bottom, #F1CC04 50%, white 50%);
+    background-size: 100% 250%;
+    background-position: left top;
+}
+
+.boxempty {
+    background: linear-gradient(to right, #F1CC04 50%, white 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 0.5s ease;
+}
+
+.boxempty2 {
+    background: linear-gradient(to bottom, #F1CC04 50%, white 50%);
+    background-size: 100% 250%;
+    background-position:left bottom;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in;
+}
+
+.boxempty:hover {
+    background-position:left bottom;
+}
+
+.arrowhidde {
+    visibility: hidden;
+}
+
+.arrow {
+    position: relative;
+    left: -1px
+}
+.arrowdown {
+    position: relative;
+    top: -13px
+}
+
+.box {
+    height: 12vh;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+.box2 {
+    height: 8vh;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.bigname {
+    font-size: 60px;
+}
+
+.navLabel {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .labelR {
+        text-align: right;
+    }
+    .labelL {
+        text-align: left;
+    }
+    .backdiv {
+        background-image: url('../src/Images/line.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+  }
+
