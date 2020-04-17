@@ -41,7 +41,7 @@ function Navigation() {
         <div className='col-12 col-lg-2' style={{position: 'sticky', top: '0px', height:'80vh'}}>  
             <div className='row justify-content-start'>
                 <div className='col-11 m-0 p-0'>
-                    <img src='/gab4.jpg' alt='Gabriel' style={{width: '100%'}} className='p-0 m-0'></img>
+                    <img src='/gabriel.jpg' alt='Gabriel' style={{width: '100%'}} className='p-0 m-0'></img>
                 </div>
             </div> 
 
