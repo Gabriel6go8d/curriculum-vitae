@@ -11,7 +11,7 @@ function Section4() {
                     Laborum occaecat labore dolore commodo irure adipisicing amet officia. Deserunt fugiat deserunt aliqua quis mollit velit. Occaecat est labore sint aliquip labore occaecat nostrud reprehenderit ullamco aliqua sit voluptate. Ex laboris nisi elit proident ut dolore consequat incididunt irure dolore dolore sint reprehenderit nostrud. Est labore excepteur qui aute amet qui labore culpa.        
                 </div>            
             </div>
-            <FontAwesomeIcon icon={faDiceD6} size='3x' color='#F1CC04' className='mt-5'/>
+            <FontAwesomeIcon icon={faDiceD6} size='3x' color='#F1CC04' className='mt-5 mb-5'/>
         </React.Fragment>
     )
 }
