@@ -40,7 +40,7 @@ function NavBar() {
 
     return (
         <React.Fragment>
-            <img className='m-0 p-0' src='/gabriel.jpg' style={{width: '100%'}}></img>
+            <img className='m-0 p-0' src={require('../Images/gabriel.jpg')} alt='Gabriel' style={{width: '100%'}}></img>
             
             <div className='row m-0 p-0' style={{position: 'sticky', top: '0px', zIndex: 10, backgroundColor: 'white'}}>
                 <div className='col-3'>                

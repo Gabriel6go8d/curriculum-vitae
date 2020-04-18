@@ -1,12 +1,10 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import './MyCSS.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Components/Navigation';
-import {Image} from 'react-bootstrap'
 import NavBar from './Components/NavBar';
 import ContentMain from './Components/ContentMain';
-import Picture from './Components/Picture';
 
 function App() {
 
