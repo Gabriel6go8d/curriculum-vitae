@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCircle} from '@fortawesome/free-solid-svg-icons'
 
 function ShowData2Piece(prop) {
-    const matches = window.matchMedia('(min-width:1000px)').matches
+    const matches = window.matchMedia('(min-width:765px)').matches
 
     var showIcon = ''
     if(prop.values.id !== '1') {

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCircle} from '@fortawesome/free-solid-svg-icons'
 
 function ShowData1(prop) {
-    const matches = window.matchMedia('(min-width:1000px)').matches
+    const matches = window.matchMedia('(min-width:765px)').matches
     const toSHow = prop.values.map(xx => <ShowData1Piece label={xx.label} data={xx.data} key={xx.id}/>)
 
     return (
