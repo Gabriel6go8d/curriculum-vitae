@@ -100,6 +100,13 @@ body p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.descript{
+    font-size: 17px;
+    font-weight: 300;
+    color: gray;
+    font-style: italic;
+}
+
 
 @media only screen and (min-width: 765px) {
     .labelR {
