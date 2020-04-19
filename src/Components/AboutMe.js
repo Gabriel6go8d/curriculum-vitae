@@ -12,8 +12,9 @@ function AboutMe() {
             <div className='row justify-content-center mt-5'>
                 <div className='col-8'>  
                     <h1>About Me</h1>                  
-                    <p className='mt-4 gray'>Fugiat pariatur non quis sunt deserunt minim labore qui occaecat irure ut ullamco. Dolor in adipisicing ea qui sit magna minim. Adipisicing mollit reprehenderit nullatur non quis sunt deserunt minim labore qui occaecat irure ut ullamco. Dolor in adipisicing ea qui sit magna minim. Adipisicing mollit reprehenderit nulla deserunt duis deserunt duis.</p>                    
+                    <p className='mt-4 gray'>Hola, mi nombre es Gabriel y soy un Ing. en Telecomunicaciones que le encanta la programación. Cada dia se presentan nuevos retos y con ellos nuevos caminos, nuevas formas de ver las cosas y posibilidades de mejorar. Fanatico del anime y el cine de Marvel, Pro Apple aunque reconozco que hay mas marcas en este mundo. Soy activo y responsable, pero sobre todo, un Buen Amigo. </p>                    
                 </div>
+                
             </div>
         </React.Fragment>
     )

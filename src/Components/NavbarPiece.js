@@ -7,11 +7,11 @@ function NavbarPiece(prop) {
     const[styleArrow, setStyleArrow] = useState('arrowhidde')
 
     const ReadPosition = () => {
-        let part2PY = document.getElementById('section-2').offsetTop - window.innerHeight/2
-        let part3PY = document.getElementById('section-3').offsetTop - window.innerHeight/2
-        let part4PY = document.getElementById('section-4').offsetTop - window.innerHeight/2
-        let part5PY = document.getElementById('section-5').offsetTop - window.innerHeight/2
-        let part6PY = document.getElementById('section-6').offsetTop - window.innerHeight/2
+        let part2PY = document.getElementById('section-2').offsetTop +200
+        let part3PY = document.getElementById('section-3').offsetTop +200
+        let part4PY = document.getElementById('section-4').offsetTop +200
+        let part5PY = document.getElementById('section-5').offsetTop +200
+        let part6PY = document.getElementById('section-6').offsetTop +200
         let scrollPY = Math.floor(document.body.getBoundingClientRect().y) * (-1)
         var position = '0'
         if (scrollPY < part2PY){
@@ -48,10 +48,12 @@ function NavbarPiece(prop) {
     },[])
 
     const clickJump = (e) => {
+        let elementPY = document.getElementById(e).offsetTop + window.innerHeight*2/3
         window.scrollTo({
-            top:document.getElementById(e).offsetTop + 400, 
+            top: elementPY, 
             behavior: "smooth" // smooth scroll.
         });  
+        console.log(elementPY)
     }
 
     return (

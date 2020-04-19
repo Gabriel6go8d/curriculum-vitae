@@ -27,7 +27,7 @@ function Section2() {
 
     return (
         <React.Fragment>
-            <FaBriefcase size='40px' color='#F1CC04'/>
+            <FaBriefcase size='40px' color='#F1CC04' className='mt-5'/>
             <div className='row justify-content-center mt-5'>
                 <h1 className='col-12'>Experiencia</h1>
                 <div className='col-10 mt-5 backdiv'>                

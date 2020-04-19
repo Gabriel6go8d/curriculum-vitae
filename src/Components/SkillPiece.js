@@ -2,7 +2,7 @@ import React from 'react'
 
 function SkillPiece(prop) {
 
-    const toShow = prop.data.map(xx => <div className='mr-2'
+    const toShow = prop.data.map((xx, index) => <div className='mr-2' key={index}
                                         style={{backgroundColor: '#e6e6e6', borderRadius: '15px'}}>
                                         <p className='ml-2 mr-2 mt-0' style={{fontSize:'15px'}}>{xx}</p></div>)
 
