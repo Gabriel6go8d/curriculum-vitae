@@ -1,13 +1,12 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCircle} from '@fortawesome/free-solid-svg-icons'
+import {FaCircle} from 'react-icons/fa'
 
 function ShowData2Piece(prop) {
     // const matches = window.matchMedia('(min-width:765px)').matches
 
     var showIcon = ''
     if(prop.values.id !== '1') {
-        showIcon = <FontAwesomeIcon icon={faCircle} size='lg' color='#F1CC04' className='mt-1 mb-3 col-12'/>
+        showIcon = <FaCircle size='15px' color='#F1CC04' className='mt-3 mb-3 col-12'/>
     }
 
     return (
@@ -15,13 +14,13 @@ function ShowData2Piece(prop) {
             {showIcon}
             <div className='col-12 col-md-5 labelR'>
                 <h5>{prop.values.date}</h5>
-                <p>{prop.values.location}</p>  
+                <p className='gray'>{prop.values.location}</p>  
             </div>
             <div className='col-12 col-md-5 labelL'>
                 <div className='row align-items-start' style={{height: 'fill'}}>
                     <div className='col'>
                         <h5>{prop.values.label}</h5>
-                        <p id='valueC' style={{wordBreak: 'break-word'}}>{prop.values.data}</p>
+                        <p id='valueC' className='gray' style={{wordBreak: 'break-word'}}>{prop.values.data}</p>
                     </div>
                 </div>
             </div>

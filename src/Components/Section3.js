@@ -1,7 +1,6 @@
 import React from 'react'
 import ShowData2Piece from './ShowData2Piece'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faDiceD6} from '@fortawesome/free-solid-svg-icons'
+import {FaGraduationCap} from 'react-icons/fa'
 
 function Section3() {
 
@@ -34,13 +33,13 @@ function Section3() {
 
     return (
         <React.Fragment>
+            <FaGraduationCap size='50px' color='#F1CC04' className='mt-5'/>
             <div className='row justify-content-center mt-5'>
                 <h1 className='col-12'>Educación</h1>
                 <div className='col-10 mt-5 backdiv'>                
                     {MapList}                           
                 </div>            
-            </div>
-            <FontAwesomeIcon icon={faDiceD6} size='3x' color='#F1CC04' className='mt-5'/>
+            </div>            
         </React.Fragment>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './MyCSS.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './Components/Navigation';
+import Navigation2 from './Components/Navigation2';
 import NavBar from './Components/NavBar';
 import ContentMain from './Components/ContentMain';
 
@@ -18,13 +18,12 @@ function App() {
   // },[])
 
   return (
-    <div className="App m-0 p-0">
+    <div className="App m-0 p-0 setboddy">
       {!matches && <NavBar/>}
 
-      <div id='cont' className='container' style={{backgroundColor: 'white', position: 'relative'}}>   
-
+      <div className='container content' style={{backgroundColor: 'white'}}>
         <div className='row'>   
-          {matches && <Navigation/>}  
+          {matches && <Navigation2/>}  
           <ContentMain/> 
         </div>
       </div>

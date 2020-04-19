@@ -1,7 +1,7 @@
 import React from 'react'
 import ShowData2Piece from './ShowData2Piece'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faDiceD6} from '@fortawesome/free-solid-svg-icons'
+import {FaBriefcase} from 'react-icons/fa'
+
 
 function Section2() {
 
@@ -27,13 +27,13 @@ function Section2() {
 
     return (
         <React.Fragment>
+            <FaBriefcase size='40px' color='#F1CC04'/>
             <div className='row justify-content-center mt-5'>
                 <h1 className='col-12'>Experiencia</h1>
                 <div className='col-10 mt-5 backdiv'>                
                     {MapList}                           
                 </div>            
-            </div>
-            <FontAwesomeIcon icon={faDiceD6} size='3x' color='#F1CC04' className='mt-5'/>
+            </div>            
         </React.Fragment>
     )
 }

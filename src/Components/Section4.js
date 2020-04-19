@@ -1,17 +1,29 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faDiceD6} from '@fortawesome/free-solid-svg-icons'
+import {FaLaptopCode, FaNewspaper, FaCogs, FaMobileAlt, FaLightbulb} from 'react-icons/fa'
+import SkillPiece from './SkillPiece'
+import Section4A from './Section4A'
 
 function Section4() {
     return (
         <React.Fragment>
+            <FaLightbulb size='50px' color='#F1CC04' className='mt-5'/>
             <div className='row justify-content-center mt-5'>
-                <h1 className='col-12'>Skills</h1>
-                <div className='col-10 mt-5'>
-                    Laborum occaecat labore dolore commodo irure adipisicing amet officia. Deserunt fugiat deserunt aliqua quis mollit velit. Occaecat est labore sint aliquip labore occaecat nostrud reprehenderit ullamco aliqua sit voluptate. Ex laboris nisi elit proident ut dolore consequat incididunt irure dolore dolore sint reprehenderit nostrud. Est labore excepteur qui aute ametborum occaecat labore dolore commodo irure adipisicing amet officia. Deserunt fugiat deserunt aliqua quis mollit velit. Occaecat est labore sint aliquip labore occaecat nostrud reprehenderit ullamco aliqua sit voluptate. Ex laboris nisi elit proident ut dolore consequat incididunt irure dolore dolore sint reprehenderit nostrud. Est labore excepteur qui aute ametborum occaecat labore dolore commodo irure adipisicing amet officia. Deserunt fugiat deserunt aliqua quis mollit velit. Occaecat est labore sint aliquip labore occaecat nostrud reprehenderit ullamco aliqua sit voluptate. Ex laboris nisi elit proident ut dolore consequat incididunt irure dolore dolore sint reprehenderit nostrud. Est labore excepteur qui aute ametborum occaecat labore dolore commodo irure adipisicing amet officia. Deserunt fugiat deserunt aliqua quis mollit velit. Occaecat est labore sint aliquip labore occaecat nostrud reprehenderit ullamco aliqua sit voluptate. Ex laboris nisi elit proident ut dolore consequat incididunt irure dolore dolore sint reprehenderit nostrud. Est labore excepteur qui aute amet qui labore culpa.        
+                <h1 className='col-12 mb-5'>Habilidades</h1>
+                <div className='row justify-content-center backdiv' style={{width: '100%'}}>
+                    <SkillPiece label='Desarrollo Web' data={['HTML', 'CSS', 'Javascript']} icon={<FaLaptopCode size='60px' color='#F1CC04'/>}/>      
+                    <SkillPiece label='Frontend Framework' data={['Bootstrap', 'React']} icon={<FaNewspaper size='60px' color='#F1CC04'/>}/> 
+                    <SkillPiece label='Backend Framework' data={['Laravel', 'PHP', 'MySQL']} icon={<FaCogs size='60px' color='#F1CC04'/>}/>
+                    <SkillPiece label='Desarrollo App' data={['Swift']} icon={<FaMobileAlt size='60px' color='#F1CC04'/>}/>                   
                 </div>            
             </div>
-            <FontAwesomeIcon icon={faDiceD6} size='3x' color='#F1CC04' className='mt-5 mb-5'/>
+
+            <div className='row justify-content-center'>
+                <div className='mt-5 col-6'>
+                    <p className='gray font-italic' style={{fontSize: '13px', fontWeight: '100'}}>Responsable, activo, puntual, creativo, flexible, empatico, solidario, buen amigo.</p>
+                </div>
+            </div>
+
+            <Section4A/>
         </React.Fragment>
     )
 }
