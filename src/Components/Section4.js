@@ -19,7 +19,7 @@ function Section4() {
 
             <div className='row justify-content-center'>
                 <div className='mt-5 col-6'>
-                    <p className='gray font-italic' style={{fontSize: '13px', fontWeight: '100'}}>Responsable, activo, puntual, creativo, flexible, empatico, solidario, buen amigo.</p>
+                    <p className='descript'>Responsable, activo, puntual, creativo, flexible, empatico, solidario, buen amigo.</p>
                 </div>
             </div>
 

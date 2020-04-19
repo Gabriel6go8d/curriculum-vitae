@@ -8,6 +8,7 @@ function Section5() {
             <FaFolderOpen size='50px' color='#F1CC04' className='mt-5'/>
             <div className='row justify-content-center m-0 p-0 mt-5'>
                 <h1 className='col-12'>Portafolio</h1>
+                <h5 className='col-12 gray'>https://github.com/Gabriel6go8d</h5>
                 <div className='row justify-content-between'>
                     <Section5A title='React' description='Pagina de practica con React y Bootstrap' img='https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg' direction='https://gabriel6go8d.github.io/firts-steps/'/>
 
