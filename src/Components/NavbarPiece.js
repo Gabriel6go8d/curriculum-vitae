@@ -48,7 +48,7 @@ function NavbarPiece(prop) {
     },[])
 
     const clickJump = (e) => {
-        let elementPY = document.getElementById(e).offsetTop + window.innerHeight*2/3
+        let elementPY = document.getElementById(e).offsetTop + window.innerHeight/2
         window.scrollTo({
             top: elementPY, 
             behavior: "smooth" // smooth scroll.

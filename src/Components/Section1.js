@@ -14,7 +14,7 @@ function Section1() {
         {
             id: '2',
             label: 'Edad',
-            data: '26 años',
+            data: '27 años',
         },
         {
             id: '3',

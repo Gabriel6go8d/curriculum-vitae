@@ -4,7 +4,7 @@ import {FaCircle} from 'react-icons/fa'
 
 function ShowData1(prop) {
     const matches = window.matchMedia('(min-width:765px)').matches
-    const toSHow = prop.values.map(xx => <ShowData1Piece label={xx.label} data={xx.data} key={xx.id}/>)
+    const toSHow = prop.values.map(xx => <ShowData1Piece values={xx} key={xx.id}/>)
 
     return (
         <div className='row justify-content-center mt-5'>
